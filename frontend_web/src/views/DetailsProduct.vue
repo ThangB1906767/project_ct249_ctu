@@ -100,7 +100,7 @@
     <toastsVue></toastsVue>
     <div class="heading">
         <div class="title" style="background-color: #e9ecef;">
-        <h2 class="text-dark" style="padding-left: 20px;">Order Details</h2>
+        <h2 class="text-dark" style="padding-left: 20px;">Product Details</h2>
         </div>
     </div>
     <div class="wrapper">
