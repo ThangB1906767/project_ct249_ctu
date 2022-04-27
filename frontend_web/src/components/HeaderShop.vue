@@ -123,7 +123,7 @@ import toast from '../assets/js/toasts';
       
        <div class="Cart">
          <div class="wrapper_cart">
-             <div class="cart_link">
+             <div class="cart_link" id="cart_link">
                 <div class="card card-body bg-dark cart-info"> 
                     <div class="cart-list">
                         <h4 class="text-light">Shopping Cart</h4>
@@ -221,7 +221,13 @@ import toast from '../assets/js/toasts';
   width: 500px;
   display: none;
   z-index: 100;
+  overflow-y: scroll;
+  max-height: 500px;
 }
+#cart_link::-webkit-scrollbar{
+    width: 6px;
+    background-color: #F5F5F5;
+} 
 .wrapper_cart:hover > .cart_link{
   cursor:pointer;
   display: block;
@@ -288,7 +294,7 @@ import toast from '../assets/js/toasts';
 }
 .name-product{
     white-space: wrap; 
-    min-width: 5  0px; 
+    min-width: 50px; 
     overflow: hidden;
     text-overflow:ellipsis;
     display: -webkit-box;
